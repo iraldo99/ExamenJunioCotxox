@@ -19,6 +19,9 @@ public class Conductor {
 	 * Constructores: necesitamos el constructor por defecto 
 	 * para trabajar con Spring JPA
 	 */
+	public Conductor() {
+		
+	}
 		
 	public Conductor(String tarjetaCredito){
 		this.tarjeta = tarjetaCredito;
